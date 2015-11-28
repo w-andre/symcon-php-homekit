@@ -1,0 +1,11 @@
+{
+	"id" : "{E12D6D3E-BF81-4BF2-B745-B217B85898CB}",
+	"name" : "HomeKitService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HKS"
+}

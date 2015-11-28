@@ -1,0 +1,52 @@
+{
+	"elements": [
+		{ "type": "Select", "name": "DeviceType", "caption": "Type", "options": [
+			{ "label": "Switch", "value": 0 },
+			{ "label": "Light Bulb", "value": 1 },
+			{ "label": "Garage Door Opener", "value": 2 },
+			{ "label": "Thermostat", "value": 3 },
+			{ "label": "Lock Mechanism", "value": 4 }
+		] },
+		
+		{ "type": "Label", "label": "Switch and Light Bulb variables" },
+		{ "type": "SelectVariable", "name": "PowerStateVariableId", "caption": "PowerState" },
+		{ "type": "ValidationTextBox", "name": "PowerStateOn", "caption": "Value On" },
+		{ "type": "ValidationTextBox", "name": "PowerStateOff", "caption": "Value Off" },
+		
+		{ "type": "Label", "label": "Light Bulb variables" },
+		{ "type": "SelectVariable", "name": "BrightnessVariableId", "caption": "Brightness" },
+		{ "type": "NumberSpinner", "name": "BrightnessMaxValue", "caption": "Max. Value", "digits": 2},
+		
+		{ "type": "Label", "label": "Garage Door Opener variables" },
+		{ "type": "SelectVariable", "name": "TargetDoorStateVariableId", "caption": "Target Door State" },
+		{ "type": "ValidationTextBox", "name": "TargetDoorStateOpen", "caption": "Value Open" },
+		{ "type": "ValidationTextBox", "name": "TargetDoorStateClosed", "caption": "Value Closed" },
+		{ "type": "ValidationTextBox", "name": "TargetDoorStateOpening", "caption": "Value Opening" },
+		{ "type": "ValidationTextBox", "name": "TargetDoorStateClosing", "caption": "Value Closing" },
+		{ "type": "ValidationTextBox", "name": "TargetDoorStateStopped", "caption": "Value Stopped" },
+		{ "type": "SelectVariable", "name": "CurrentDoorStateVariableId", "caption": "Current Door State" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateOpen", "caption": "Value Open" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateClosed", "caption": "Value Closed" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateOpening", "caption": "Value Opening" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateClosing", "caption": "Value Closing" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateStopped", "caption": "Value Stopped" },
+		
+		{ "type": "Label", "label": "Thermostat variables" },
+		{ "type": "SelectVariable", "name": "TargetTemperatureVariableId", "caption": "Target Temperature" },
+		{ "type": "SelectVariable", "name": "CurrentTemperatureVariableId", "caption": "Current Temperature" },
+		
+		{ "type": "Label", "label": "Lock Mechanism variables" },
+		{ "type": "SelectVariable", "name": "TargetLockMechanismStateVariableId", "caption": "Target Lock State" },
+		{ "type": "ValidationTextBox", "name": "TargetLockMechanismStateUnsecured", "caption": "Value Unsecured" },
+		{ "type": "ValidationTextBox", "name": "TargetLockMechanismStateSecured", "caption": "Value Secured" },
+		{ "type": "ValidationTextBox", "name": "TargetLockMechanismStateJammed", "caption": "Value Jammed" },
+		{ "type": "ValidationTextBox", "name": "TargetLockMechanismStateUnknown", "caption": "Value Unknown" },
+		{ "type": "SelectVariable", "name": "CurrentLockMechanismStateVariableId", "caption": "Current Lock State" },
+		{ "type": "ValidationTextBox", "name": "CurrentLockMechanismStateUnsecured", "caption": "Value Unsecured" },
+		{ "type": "ValidationTextBox", "name": "CurrentLockMechanismStateSecured", "caption": "Value Secured" },
+		{ "type": "ValidationTextBox", "name": "CurrentLockMechanismStateJammed", "caption": "Value Jammed" },
+		{ "type": "ValidationTextBox", "name": "CurrentLockMechanismStateUnknown", "caption": "Value Unknown" }
+	],
+	"actions": [
+	]
+}

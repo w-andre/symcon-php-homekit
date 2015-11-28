@@ -1,0 +1,11 @@
+{
+	"id" : "{E75002FE-58B7-4711-9DE6-BE1D3F089A32}",
+	"name" : "HomeKitAccessory",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Accessory"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HKA"
+}
