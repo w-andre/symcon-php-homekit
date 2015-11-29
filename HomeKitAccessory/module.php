@@ -83,7 +83,9 @@ class HomeKitAccessory extends IPSModule {
 			$servicesWithConfiguration[$serviceType] = array();
 			foreach($instanceIds as $instanceId) {
 				$config = IPS_GetConfiguration($instanceId);
+				$name = IPS_GetName($instanceId);
 				$servicesWithConfiguration[$serviceType][$instanceId] = json_decode($config);
+				$servicesWithConfiguration[$serviceType][$instanceId]->InstanceName = $name;
 			}
 		}
 		

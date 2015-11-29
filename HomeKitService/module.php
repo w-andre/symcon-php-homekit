@@ -49,7 +49,10 @@ class HomeKitService extends IPSModule {
 		$ipsValue = $this->GetIPSValue($variable, $characteristic, $homeKitValue, $homeKitValueType);
 		
 		// request associated action for the specified variable and value
-		IPS_RequestAction($variableObject["ParentID"], $variableObject["ObjectIdent"], $ipsValue);
+		if ($variable["VariableCustomAction"] > 0)
+			IPS_RunScriptEx($variable["VariableCustomAction"], array("VARIABLE" => $variableId, "VALUE" => $ipsValue));
+		else
+			IPS_RequestAction($variableObject["ParentID"], $variableObject["ObjectIdent"], $ipsValue);
 	}
 	
 	private function GetIPSValue($variable, $characteristic, $homeKitValue, $homeKitValueType) {
@@ -112,7 +115,7 @@ class HomeKitService extends IPSModule {
 			case "Int":
 				return intval($value);
 			case "Enum":
-				if (!is_array($homeKitEnumValues)) return $value;
+				if ($homeKitEnumValueCount <= 0) return $value;
 				
 				for($i = 0; $i < $homeKitEnumValueCount; $i++) {
 					$ipsValue = $this->ReadPropertyString($characteristic . "Value" . $i);

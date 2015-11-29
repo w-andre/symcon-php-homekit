@@ -3,7 +3,7 @@
 		{ "type": "SelectVariable", "name": "CurrentPositionVariableId", "caption": "Current Position" },
 		{ "type": "NumberSpinner", "name": "CurrentPositionMaxValue", "caption": "Max. Value", "digits": 2},
 		{ "type": "Label", "label": " " },
-		{ "type": "SelectVariable", "name": "TargetPositionVariableId", "caption": "Target Heating/Cooling State" },
+		{ "type": "SelectVariable", "name": "TargetPositionVariableId", "caption": "Target Position" },
 		{ "type": "NumberSpinner", "name": "TargetPositionMaxValue", "caption": "Max. Value", "digits": 2},
 		{ "type": "Label", "label": " " },
 		{ "type": "SelectVariable", "name": "PositionStateVariableId", "caption": "Position State" },
