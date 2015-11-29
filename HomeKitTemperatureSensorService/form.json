@@ -1,0 +1,7 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "CurrentTemperatureVariableId", "caption": "Current Temperature" }
+	],
+	"actions": [
+	]
+}

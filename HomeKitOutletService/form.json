@@ -1,0 +1,13 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "OnVariableId", "caption": "On" },
+		{ "type": "ValidationTextBox", "name": "OnValueTrue", "caption": "Value True (On)" },
+		{ "type": "ValidationTextBox", "name": "OnValueFalse", "caption": "Value False (Off)" },
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "OutletInUseVariableId", "caption": "Outlet In Use" },
+		{ "type": "ValidationTextBox", "name": "OutletInUseValueTrue", "caption": "Value True" },
+		{ "type": "ValidationTextBox", "name": "OutletInUseValueFalse", "caption": "Value False" }
+	],
+	"actions": [
+	]
+}

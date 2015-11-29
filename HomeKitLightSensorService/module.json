@@ -1,0 +1,11 @@
+{
+	"id" : "{53F9E5A7-D0CB-4DF7-939C-4D112046BA18}",
+	"name" : "HomeKitLightSensorService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Light Sensor Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

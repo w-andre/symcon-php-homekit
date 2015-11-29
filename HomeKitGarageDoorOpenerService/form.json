@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "CurrentDoorStateVariableId", "caption": "Current Door State" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateValue0", "caption": "Value Open" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateValue1", "caption": "Value Closed" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateValue2", "caption": "Value Opening" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateValue3", "caption": "Value Closing" },
+		{ "type": "ValidationTextBox", "name": "CurrentDoorStateValue4", "caption": "Value Stopped" },
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "TargetDoorStateVariableId", "caption": "Target Door State" },
+		{ "type": "ValidationTextBox", "name": "TargetDoorStateValue0", "caption": "Value Open" },
+		{ "type": "ValidationTextBox", "name": "TargetDoorStateValue1", "caption": "Value Closed" }
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "ObstructionDetectedVariableId", "caption": "Obstruction Detected" },
+		{ "type": "ValidationTextBox", "name": "ObstructionDetectedValueTrue", "caption": "Value True" },
+		{ "type": "ValidationTextBox", "name": "ObstructionDetectedValueFalse", "caption": "Value False" }
+	],
+	"actions": [
+	]
+}

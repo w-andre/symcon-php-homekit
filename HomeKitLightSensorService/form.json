@@ -1,0 +1,7 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "CurrentAmbientLightLevelVariableId", "caption": "Current Ambient Light Level" }
+	],
+	"actions": [
+	]
+}

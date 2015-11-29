@@ -1,0 +1,11 @@
+{
+	"id" : "{46B95039-99AE-416D-81C7-948B469571EF}",
+	"name" : "HomeKitGarageDoorOpenerService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Garage Door Opener Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

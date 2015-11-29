@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "LockCurrentStateVariableId", "caption": "Lock Current State" },
+		{ "type": "ValidationTextBox", "name": "LockCurrentStateValue0", "caption": "Value Unsecured" },
+		{ "type": "ValidationTextBox", "name": "LockCurrentStateValue1", "caption": "Value Secured" },
+		{ "type": "ValidationTextBox", "name": "LockCurrentStateValue2", "caption": "Value Jammed" },
+		{ "type": "ValidationTextBox", "name": "LockCurrentStateValue3", "caption": "Value Unknown" },		
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "LockTargetStateVariableId", "caption": "Lock Target State" },
+		{ "type": "ValidationTextBox", "name": "LockTargetStateValue0", "caption": "Value Unsecured" },
+		{ "type": "ValidationTextBox", "name": "LockTargetStateValue1", "caption": "Value Secured" }		
+	],
+	"actions": [
+	]
+}

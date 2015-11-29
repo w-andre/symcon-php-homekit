@@ -1,0 +1,11 @@
+{
+	"id" : "{8F76690C-C564-4A1C-A332-E754467A64CA}",
+	"name" : "HomeKitThermostatService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Thermostat Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

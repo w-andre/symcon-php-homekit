@@ -4,6 +4,7 @@
 		
 		{ "type": "NumberSpinner", "name": "Fan", "caption": "Fan" },
 		{ "type": "NumberSpinner", "name": "GarageDoorOpener", "caption": "Garage Door Opener" },
+		{ "type": "NumberSpinner", "name": "HumiditySensor", "caption": "Humidity Sensor" },
 		{ "type": "NumberSpinner", "name": "LightBulb", "caption": "Light Bulb" },
 		{ "type": "NumberSpinner", "name": "LockMechanism", "caption": "Lock Mechanism" },
 		{ "type": "NumberSpinner", "name": "Switch", "caption": "Switch" },

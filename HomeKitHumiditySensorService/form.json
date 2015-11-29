@@ -1,0 +1,8 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "CurrentRelativeHumidityVariableId", "caption": "Current Relative Humidity" },
+		{ "type": "NumberSpinner", "name": "CurrentRelativeHumidityMaxValue", "caption": "Max. Value", "digits": 2}
+	],
+	"actions": [
+	]
+}

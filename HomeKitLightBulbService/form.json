@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "OnVariableId", "caption": "On" },
+		{ "type": "ValidationTextBox", "name": "OnValueTrue", "caption": "Value True (On)" },
+		{ "type": "ValidationTextBox", "name": "OnValueFalse", "caption": "Value False (Off)" },
+		
+		{ "type": "Label", "label": "optional" },
+		{ "type": "SelectVariable", "name": "BrightnessVariableId", "caption": "Brightness" },
+		{ "type": "NumberSpinner", "name": "BrightnessMaxValue", "caption": "Max. Value", "digits": 2},
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "HueVariableId", "caption": "Hue" },
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "SaturationVariableId", "caption": "Saturation" },
+		{ "type": "NumberSpinner", "name": "SaturationMaxValue", "caption": "Max. Value", "digits": 2}
+	],
+	"actions": [
+	]
+}

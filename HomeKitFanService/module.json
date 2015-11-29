@@ -1,0 +1,11 @@
+{
+	"id" : "{15ED41C3-E385-4800-A109-AD7EDBE72FF0}",
+	"name" : "HomeKitFanService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Fan Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

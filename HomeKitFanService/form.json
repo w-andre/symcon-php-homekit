@@ -1,0 +1,9 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "OnVariableId", "caption": "On" },
+		{ "type": "ValidationTextBox", "name": "OnValueTrue", "caption": "Value True (On)" },
+		{ "type": "ValidationTextBox", "name": "OnValueFalse", "caption": "Value False (Off)" }
+	],
+	"actions": [
+	]
+}

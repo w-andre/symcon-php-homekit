@@ -1,0 +1,11 @@
+{
+	"id" : "{C7D35CD7-9EE6-451C-A67F-94C9D7165D1E}",
+	"name" : "HomeKitWindowCoveringService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Window Covering Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

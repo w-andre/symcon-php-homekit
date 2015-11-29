@@ -1,0 +1,11 @@
+{
+	"id" : "{B3590C53-3E0E-4BBC-9BCA-76E208750C19}",
+	"name" : "HomeKitLightBulbService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Light Bulb Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

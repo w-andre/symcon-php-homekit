@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "CurrentPositionVariableId", "caption": "Current Position" },
+		{ "type": "NumberSpinner", "name": "CurrentPositionMaxValue", "caption": "Max. Value", "digits": 2},
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "TargetPositionVariableId", "caption": "Target Heating/Cooling State" },
+		{ "type": "NumberSpinner", "name": "TargetPositionMaxValue", "caption": "Max. Value", "digits": 2},
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "PositionStateVariableId", "caption": "Position State" },
+		{ "type": "ValidationTextBox", "name": "PositionStateValue0", "caption": "Value Decreasing" },
+		{ "type": "ValidationTextBox", "name": "PositionStateValue1", "caption": "Value Increasing" },
+		{ "type": "ValidationTextBox", "name": "PositionStateValue2", "caption": "Value Stopped" }
+	],
+	"actions": [
+	]
+}

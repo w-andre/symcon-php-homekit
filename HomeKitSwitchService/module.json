@@ -1,0 +1,11 @@
+{
+	"id" : "{26AA1820-981B-42E0-BE68-81F505444D56}",
+	"name" : "HomeKitSwitchService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Switch Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

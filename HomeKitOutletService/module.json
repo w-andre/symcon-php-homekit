@@ -1,0 +1,11 @@
+{
+	"id" : "{CFB352B8-D547-4BD8-829A-5136B8EFD19B}",
+	"name" : "HomeKitOutletService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Outlet Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

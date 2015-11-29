@@ -1,0 +1,11 @@
+{
+	"id" : "{D94A1996-F60A-4AF1-B640-F4701DECED27}",
+	"name" : "HomeKitHumiditySensorService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Humidity Sensor Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

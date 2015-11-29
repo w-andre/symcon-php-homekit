@@ -1,0 +1,11 @@
+{
+	"id" : "{1A0A3A42-1DA1-4336-A62E-2ECB7EA6FEFC}",
+	"name" : "HomeKitLockMechanismService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Lock Mechanism Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

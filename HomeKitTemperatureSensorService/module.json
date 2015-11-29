@@ -1,0 +1,11 @@
+{
+	"id" : "{0AEE9E1C-6F9C-4003-B8CA-2495172F6C41}",
+	"name" : "HomeKitTemperatureSensorService",
+	"type" : 3,
+	"vendor" : "Apple",
+	"aliases" : ["HomeKit Temperature Sensor Service"],
+	"parentRequirements" : [],
+	"childRequirements" : [],
+	"implemented" : [],
+	"prefix" : "HK"
+}

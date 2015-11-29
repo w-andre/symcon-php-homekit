@@ -1,0 +1,23 @@
+{
+	"elements": [
+		{ "type": "SelectVariable", "name": "CurrentHeatingCoolingStateVariableId", "caption": "Current Heating/Cooling State" },
+		{ "type": "ValidationTextBox", "name": "CurrentHeatingCoolingStateValue0", "caption": "Value Off" },
+		{ "type": "ValidationTextBox", "name": "CurrentHeatingCoolingStateValue1", "caption": "Value Heat" },
+		{ "type": "ValidationTextBox", "name": "CurrentHeatingCoolingStateValue2", "caption": "Value Cool" },
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "TargetHeatingCoolingStateVariableId", "caption": "Target Heating/Cooling State" },
+		{ "type": "ValidationTextBox", "name": "TargetHeatingCoolingStateValue0", "caption": "Value Off" },
+		{ "type": "ValidationTextBox", "name": "TargetHeatingCoolingStateValue1", "caption": "Value Heat" },
+		{ "type": "ValidationTextBox", "name": "TargetHeatingCoolingStateValue2", "caption": "Value Cool" },
+		{ "type": "ValidationTextBox", "name": "TargetHeatingCoolingStateValue3", "caption": "Value Auto" },
+		{ "type": "Label", "label": " " },
+		{ "type": "SelectVariable", "name": "CurrentTemperatureVariableId", "caption": "Current Temperature" },
+		{ "type": "SelectVariable", "name": "TargetTemperatureVariableId", "caption": "Target Temperature" },
+		{ "type": "Select", "name": "TemperatureDisplayUnits", "caption": "Type", "options": [
+			{ "label": "Celsius", "value": 0 },
+			{ "label": "Fahrenheit", "value": 1 }
+		] }
+	],
+	"actions": [
+	]
+}
