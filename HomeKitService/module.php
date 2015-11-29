@@ -127,14 +127,15 @@ class HomeKitService extends IPSModule {
 	}
 	
 	private function HasProperty($propertyName) {
-		$configuration = json_decode(IPS_GetConfiguration($this->InstanceID));
-		return array_key_exists($propertyName, $configuration);		
+		$instanceId = $this->InstanceID;
+		$configuration = json_decode(IPS_GetConfiguration($instanceId));
+		return array_key_exists($propertyName, $configuration);
 	}
 	
 	private function SetProperty($propertyName, $propertyValue) {
 		$instanceId = $this->InstanceID;
 		IPS_SetProperty($instanceId, $propertyName, $propertyValue);
-		IPS_ApplyChanges($instanceId);		
+		IPS_ApplyChanges($instanceId);
 	}
 }
 

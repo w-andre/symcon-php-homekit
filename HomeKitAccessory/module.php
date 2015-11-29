@@ -75,6 +75,21 @@ class HomeKitAccessory extends IPSModule {
 		return $services;
 	}
 	
+	public function GetServicesWithConfiguration() {
+		$services = $this->GetServices();
+		$servicesWithConfiguration = array();
+		
+		foreach($services as $serviceType => $instanceIds) {
+			$servicesWithConfiguration[$serviceType] = array();
+			foreach($instanceIds as $instanceId) {
+				$config = IPS_GetConfiguration($instanceId);
+				$servicesWithConfiguration[$serviceType][$instanceId] = json_decode($config);
+			}
+		}
+		
+		return json_encode($servicesWithConfiguration);
+	}
+	
 	public function GetServiceTypeFromModuleId(string $moduleId) {
 		switch($moduleId) {
 			case "{15ED41C3-E385-4800-A109-AD7EDBE72FF0}": return "Fan";
