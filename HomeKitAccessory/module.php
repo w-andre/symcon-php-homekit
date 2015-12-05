@@ -92,6 +92,19 @@ class HomeKitAccessory extends IPSModule {
 		return json_encode($servicesWithConfiguration);
 	}
 	
+	public function GetHierarchyPath() {
+		$instanceId = $this->InstanceID;
+		$hierarchyPath = "";
+		
+		while ($instanceId > 0) {
+			$instanceId = IPS_GetParent($instanceId);
+			$name = IPS_GetName($instanceId);
+			$hierarchyPath = $hierarchyPath . $name . "/";
+		}
+		
+		return $hierarchyPath;
+	}
+	
 	public function GetServiceTypeFromModuleId(string $moduleId) {
 		switch($moduleId) {
 			case "{15ED41C3-E385-4800-A109-AD7EDBE72FF0}": return "Fan";
